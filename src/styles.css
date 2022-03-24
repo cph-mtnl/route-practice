@@ -1,0 +1,32 @@
+.component {
+  height: 100vh;
+}
+
+.green-page {
+  background-color: green;
+}
+
+.red-page {
+  background-color: red;
+}
+
+.blue-page {
+  background-color: blue;
+}
+
+* {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav button {
+  width: 100px;
+  height: 30px;
+  margin: 15px;
+  background-color: rgb(215, 250, 255);
+  border-radius: 5px;
+}
